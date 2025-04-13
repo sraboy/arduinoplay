@@ -111,3 +111,8 @@ nbproject
 .clang_complete
 .gcc-flags.json
 .pio
+
+
+##### macOS #####
+.DS_Store
+**/.DS_Store

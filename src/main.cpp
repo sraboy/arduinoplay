@@ -1,5 +1,5 @@
 #include <Arduino.h>
 #include "projects.h"
 
-void setup() { lights_setup(); }
-void loop() { lights_loop(); }
+void setup() { simon_setup(); }
+void loop() { simon_loop(); }

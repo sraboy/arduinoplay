@@ -1,8 +1,3 @@
-//
-// !!! WARNING !!! AUTO-GENERATED FILE!
-// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
-// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
-//
 {
     "configurations": [
         {
@@ -10,14 +5,14 @@
             "includePath": [
                 "~/Documents/Arduino/arduinoplay/include",
                 "~/Documents/Arduino/arduinoplay/src",
+                "~/Documents/Arduino/libraries/ArduinoSTL/src",
                 "~/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "~/.platformio/packages/framework-arduino-avr/variants/standard",
                 "~/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "~/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                 "~/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "~/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "~/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
-                ""
+                "~/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
@@ -43,8 +38,8 @@
                 "__AVR_ATmega328P__",
                 ""
             ],
-            "cStandard": "gnu11",
-            "cppStandard": "gnu++11",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
             "compilerPath": "~/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
             "compilerArgs": [
                 "-mmcu=atmega328p",
